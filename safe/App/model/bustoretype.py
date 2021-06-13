@@ -2,9 +2,6 @@
 # -*- coding: utf-8 -*-
 '商家分类-数据模型'
 
-__author__='黄洵斌'
-__wdate__='2019/5/26'
-
 from App import  db
 from sqlalchemy.dialects.postgresql import BOOLEAN,INTEGER,VARCHAR,JSONB,ARRAY
 from sqlalchemy.sql import func,text
